@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("Splitix")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Chambre des communes")]
+[assembly: AssemblyCompany("Patware")]
 [assembly: AssemblyProduct("Splitix")]
-[assembly: AssemblyCopyright("Copyright © Chambre des communes 2014")]
+[assembly: AssemblyCopyright("Copyright © Patware 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
