@@ -1,0 +1,15 @@
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\Splitix.TestProject.dll
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\Splitix.TestProject.pdb
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\Splitix.exe
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\System.Windows.Interactivity.dll
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\Splitix.pdb
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\bin\Debug\System.Windows.Interactivity.xml
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\obj\Debug\Splitix.TestProject.dll
+D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\obj\Debug\Splitix.TestProject.pdb

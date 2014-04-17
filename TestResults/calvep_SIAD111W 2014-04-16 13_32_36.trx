@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="17a96ab7-11d4-43db-a858-8faa8c707f60" name="calvep@SIAD111W 2014-04-16 13:32:36" runUser="HOC\calvep" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="96334962-906c-46c9-8522-73141da7f407">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="calvep_SIAD111W 2014-04-16 13_32_36">
+      <DeploymentItem filename="C:\Program Files\Laurent Bugnion (GalaSoft)\Mvvm Light Toolkit\Binaries\WPF4\GalaSoft.MvvmLight.WPF4.dll" />
+      <DeploymentItem filename="D:\dev\Not-Hoc\Patware\Splitix\Splitix\bin\Debug\Splitix.exe" />
+      <DeploymentItem filename="C:\Program Files\Laurent Bugnion (GalaSoft)\Mvvm Light Toolkit\Binaries\WPF4\Microsoft.Practices.ServiceLocation.dll" />
+      <DeploymentItem filename="C:\Program Files\Laurent Bugnion (GalaSoft)\Mvvm Light Toolkit\Binaries\WPF4\System.Windows.Interactivity.dll" />
+      <DeploymentItem filename="C:\Program Files\Laurent Bugnion (GalaSoft)\Mvvm Light Toolkit\Binaries\WPF4\GalaSoft.MvvmLight.Extras.WPF4.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-04-16T13:32:36.7380225-04:00" queuing="2014-04-16T13:32:37.9750225-04:00" start="2014-04-16T13:32:38.1655225-04:00" finish="2014-04-16T13:33:44.8315225-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SIAD111W" outcome="Error" timestamp="2014-04-16T13:33:44.8310225-04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="parse_5_Items_2_Column_RowFirst" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="18a2a884-e382-71cf-ef19-72c0d72ba0cb">
+      <Execution id="4fb05472-7de0-4005-b9e9-1feaaa54cc1c" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_5_Items_2_Column_RowFirst" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18a2a884-e382-71cf-ef19-72c0d72ba0cb" executionId="4fb05472-7de0-4005-b9e9-1feaaa54cc1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4fb05472-7de0-4005-b9e9-1feaaa54cc1c" testId="18a2a884-e382-71cf-ef19-72c0d72ba0cb" testName="parse_5_Items_2_Column_RowFirst" computerName="SIAD111W" duration="00:01:06.4680000" startTime="2014-04-16T13:32:38.3635225-04:00" endTime="2014-04-16T13:33:44.8315225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fb05472-7de0-4005-b9e9-1feaaa54cc1c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3b184240-a04a-4131-a52f-81d644f3800d" name="calvep@SIAD111W 2014-04-16 13:26:33" runUser="HOC\calvep" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="96334962-906c-46c9-8522-73141da7f407">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="calvep_SIAD111W 2014-04-16 13_26_33">
+      <DeploymentItem filename="C:\Program Files\Laurent Bugnion (GalaSoft)\Mvvm Light Toolkit\Binaries\WPF4\GalaSoft.MvvmLight.WPF4.dll" />
+      <DeploymentItem filename="D:\dev\Not-Hoc\Patware\Splitix\Splitix\bin\Debug\Splitix.exe" />
+      <DeploymentItem filename="C:\Program Files\Laurent Bugnion (GalaSoft)\Mvvm Light Toolkit\Binaries\WPF4\Microsoft.Practices.ServiceLocation.dll" />
+      <DeploymentItem filename="C:\Program Files\Laurent Bugnion (GalaSoft)\Mvvm Light Toolkit\Binaries\WPF4\System.Windows.Interactivity.dll" />
+      <DeploymentItem filename="C:\Program Files\Laurent Bugnion (GalaSoft)\Mvvm Light Toolkit\Binaries\WPF4\GalaSoft.MvvmLight.Extras.WPF4.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-04-16T13:26:33.7690225-04:00" queuing="2014-04-16T13:26:34.0655225-04:00" start="2014-04-16T13:26:34.0720225-04:00" finish="2014-04-16T13:26:34.3885225-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="6" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="parse_3_Item_1_Row_ColumnFirst" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="a3311cf5-6865-9b0e-dab6-15c9ba2b116c">
+      <Execution id="88d4c64d-e072-4dcc-a148-d1ffba98c60b" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_3_Item_1_Row_ColumnFirst" />
+    </UnitTest>
+    <UnitTest name="parse_3_Item_2_Row_ColumnFirst" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="43ece54b-5582-ac28-77d4-e998fcdd1b12">
+      <Execution id="bcdd34d7-01c9-4eb1-8ebb-ebf28b5a7e13" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_3_Item_2_Row_ColumnFirst" />
+    </UnitTest>
+    <UnitTest name="parse_5_Items_2_Column_ColumnFirst" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="aa743795-2613-887b-cfb9-0283e2e79f24">
+      <Execution id="6d509cd1-85b4-41dd-8d4c-3d5684ae1df2" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_5_Items_2_Column_ColumnFirst" />
+    </UnitTest>
+    <UnitTest name="parse_1_Item_1_Row_ColumnFirst" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="4e595a02-5165-da07-70ba-b9273875f461">
+      <Execution id="6c97b7a6-f217-4470-a19c-854a2a124e88" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_1_Item_1_Row_ColumnFirst" />
+    </UnitTest>
+    <UnitTest name="parse_Empty_Item_0_Row_ColumnFirst" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="24103485-3cbe-2ccf-76b7-8389572004e1">
+      <Execution id="bef3bb9a-b9f0-40f0-919f-fe2ebc2d904b" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_Empty_Item_0_Row_ColumnFirst" />
+    </UnitTest>
+    <UnitTest name="parse_2_Items_1_Column_ColumnFirst" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="05712297-3e25-23eb-60d4-f2edfd671028">
+      <Execution id="a3d1f476-f75a-4832-a02b-c17664f3b725" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_2_Items_1_Column_ColumnFirst" />
+    </UnitTest>
+    <UnitTest name="parse_2_Item_1_Row_ColumnFirst" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="3b512972-85e2-b8d2-b133-21490a0650fa">
+      <Execution id="eaf6c122-510c-4c30-9813-9bf7df67e193" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_2_Item_1_Row_ColumnFirst" />
+    </UnitTest>
+    <UnitTest name="parse_Empty_No_Input" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="5dcfc424-f7b4-7105-8417-b869a2c3dcbd">
+      <Execution id="1e86d324-cafb-4dce-aac2-cd037c80b2cb" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_Empty_No_Input" />
+    </UnitTest>
+    <UnitTest name="parse_1_Item_1_Column_ColumnFirst" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="83aa362c-31fd-bf2c-367e-e87fcdaf31d6">
+      <Execution id="0c1add53-2db6-4e56-9d2b-15b1b2bc0d3e" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_1_Item_1_Column_ColumnFirst" />
+    </UnitTest>
+    <UnitTest name="parse_1_Item_2_Column_ColumnFirst" storage="d:\dev\not-hoc\patware\splitix\splitix.testproject\bin\debug\splitix.testproject.dll" id="412ba3ad-e262-b53b-5f3e-b24ef3818b63">
+      <Execution id="d1945ac4-474f-440b-95b5-607d3469301c" />
+      <TestMethod codeBase="D:/dev/Not-Hoc/Patware/Splitix/Splitix.TestProject/bin/Debug/Splitix.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Splitix.TestProject.InputParserTest, Splitix.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parse_1_Item_2_Column_ColumnFirst" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="05712297-3e25-23eb-60d4-f2edfd671028" executionId="a3d1f476-f75a-4832-a02b-c17664f3b725" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24103485-3cbe-2ccf-76b7-8389572004e1" executionId="bef3bb9a-b9f0-40f0-919f-fe2ebc2d904b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b512972-85e2-b8d2-b133-21490a0650fa" executionId="eaf6c122-510c-4c30-9813-9bf7df67e193" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="412ba3ad-e262-b53b-5f3e-b24ef3818b63" executionId="d1945ac4-474f-440b-95b5-607d3469301c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43ece54b-5582-ac28-77d4-e998fcdd1b12" executionId="bcdd34d7-01c9-4eb1-8ebb-ebf28b5a7e13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e595a02-5165-da07-70ba-b9273875f461" executionId="6c97b7a6-f217-4470-a19c-854a2a124e88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5dcfc424-f7b4-7105-8417-b869a2c3dcbd" executionId="1e86d324-cafb-4dce-aac2-cd037c80b2cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83aa362c-31fd-bf2c-367e-e87fcdaf31d6" executionId="0c1add53-2db6-4e56-9d2b-15b1b2bc0d3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3311cf5-6865-9b0e-dab6-15c9ba2b116c" executionId="88d4c64d-e072-4dcc-a148-d1ffba98c60b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa743795-2613-887b-cfb9-0283e2e79f24" executionId="6d509cd1-85b4-41dd-8d4c-3d5684ae1df2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a3d1f476-f75a-4832-a02b-c17664f3b725" testId="05712297-3e25-23eb-60d4-f2edfd671028" testName="parse_2_Items_1_Column_ColumnFirst" computerName="SIAD111W" duration="00:00:00.0351745" startTime="2014-04-16T13:26:34.0760225-04:00" endTime="2014-04-16T13:26:34.3245225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3d1f476-f75a-4832-a02b-c17664f3b725">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;A	B&gt;. Actual:&lt;A
+B&gt;. </Message>
+          <StackTrace>   at Splitix.TestProject.InputParserTest.parse_2_Items_1_Column_ColumnFirst() in D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\InputParserTest.cs:line 117
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bef3bb9a-b9f0-40f0-919f-fe2ebc2d904b" testId="24103485-3cbe-2ccf-76b7-8389572004e1" testName="parse_Empty_Item_0_Row_ColumnFirst" computerName="SIAD111W" duration="00:00:00.0003186" startTime="2014-04-16T13:26:34.3280225-04:00" endTime="2014-04-16T13:26:34.3305225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bef3bb9a-b9f0-40f0-919f-fe2ebc2d904b">
+    </UnitTestResult>
+    <UnitTestResult executionId="eaf6c122-510c-4c30-9813-9bf7df67e193" testId="3b512972-85e2-b8d2-b133-21490a0650fa" testName="parse_2_Item_1_Row_ColumnFirst" computerName="SIAD111W" duration="00:00:00.0012804" startTime="2014-04-16T13:26:34.3335225-04:00" endTime="2014-04-16T13:26:34.3375225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eaf6c122-510c-4c30-9813-9bf7df67e193">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;A
+B&gt;. Actual:&lt;A	B&gt;. </Message>
+          <StackTrace>   at Splitix.TestProject.InputParserTest.parse_2_Item_1_Row_ColumnFirst() in D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\InputParserTest.cs:line 169
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1945ac4-474f-440b-95b5-607d3469301c" testId="412ba3ad-e262-b53b-5f3e-b24ef3818b63" testName="parse_1_Item_2_Column_ColumnFirst" computerName="SIAD111W" duration="00:00:00.0002065" startTime="2014-04-16T13:26:34.3405225-04:00" endTime="2014-04-16T13:26:34.3430225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1945ac4-474f-440b-95b5-607d3469301c">
+    </UnitTestResult>
+    <UnitTestResult executionId="bcdd34d7-01c9-4eb1-8ebb-ebf28b5a7e13" testId="43ece54b-5582-ac28-77d4-e998fcdd1b12" testName="parse_3_Item_2_Row_ColumnFirst" computerName="SIAD111W" duration="00:00:00.0002146" startTime="2014-04-16T13:26:34.3460225-04:00" endTime="2014-04-16T13:26:34.3480225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcdd34d7-01c9-4eb1-8ebb-ebf28b5a7e13">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c97b7a6-f217-4470-a19c-854a2a124e88" testId="4e595a02-5165-da07-70ba-b9273875f461" testName="parse_1_Item_1_Row_ColumnFirst" computerName="SIAD111W" duration="00:00:00.0001982" startTime="2014-04-16T13:26:34.3510225-04:00" endTime="2014-04-16T13:26:34.3535225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c97b7a6-f217-4470-a19c-854a2a124e88">
+    </UnitTestResult>
+    <UnitTestResult executionId="1e86d324-cafb-4dce-aac2-cd037c80b2cb" testId="5dcfc424-f7b4-7105-8417-b869a2c3dcbd" testName="parse_Empty_No_Input" computerName="SIAD111W" duration="00:00:00.0002128" startTime="2014-04-16T13:26:34.3565225-04:00" endTime="2014-04-16T13:26:34.3585225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e86d324-cafb-4dce-aac2-cd037c80b2cb">
+    </UnitTestResult>
+    <UnitTestResult executionId="0c1add53-2db6-4e56-9d2b-15b1b2bc0d3e" testId="83aa362c-31fd-bf2c-367e-e87fcdaf31d6" testName="parse_1_Item_1_Column_ColumnFirst" computerName="SIAD111W" duration="00:00:00.0002079" startTime="2014-04-16T13:26:34.3620225-04:00" endTime="2014-04-16T13:26:34.3640225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c1add53-2db6-4e56-9d2b-15b1b2bc0d3e">
+    </UnitTestResult>
+    <UnitTestResult executionId="88d4c64d-e072-4dcc-a148-d1ffba98c60b" testId="a3311cf5-6865-9b0e-dab6-15c9ba2b116c" testName="parse_3_Item_1_Row_ColumnFirst" computerName="SIAD111W" duration="00:00:00.0011254" startTime="2014-04-16T13:26:34.3670225-04:00" endTime="2014-04-16T13:26:34.3705225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88d4c64d-e072-4dcc-a148-d1ffba98c60b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;A
+B
+C&gt;. Actual:&lt;A	B	C&gt;. </Message>
+          <StackTrace>   at Splitix.TestProject.InputParserTest.parse_3_Item_1_Row_ColumnFirst() in D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\InputParserTest.cs:line 182
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6d509cd1-85b4-41dd-8d4c-3d5684ae1df2" testId="aa743795-2613-887b-cfb9-0283e2e79f24" testName="parse_5_Items_2_Column_ColumnFirst" computerName="SIAD111W" duration="00:00:00.0011314" startTime="2014-04-16T13:26:34.3735225-04:00" endTime="2014-04-16T13:26:34.3765225-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d509cd1-85b4-41dd-8d4c-3d5684ae1df2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;A	C	E
+B	D&gt;. Actual:&lt;A	D
+B	E
+C&gt;. </Message>
+          <StackTrace>   at Splitix.TestProject.InputParserTest.parse_5_Items_2_Column_ColumnFirst() in D:\dev\Not-Hoc\Patware\Splitix\Splitix.TestProject\InputParserTest.cs:line 130
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
