@@ -14,7 +14,6 @@ namespace Splitix.TestProject
     public class InputParserTest
     {
 
-
         private TestContext testContextInstance;
 
         /// <summary>
