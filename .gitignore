@@ -3,3 +3,7 @@
 ################################################################################
 
 /Splitix.TestProject/bin/Debug
+/Splitix.TestProject/obj
+/.vs
+/packages/
+!packages/repositories.config

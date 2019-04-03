@@ -30,5 +30,9 @@ namespace Splitix.ViewModel
             ////    // Code runs "for real"
             ////}
         }
+
+        #region Properties
+
+        #endregion
     }
 }
