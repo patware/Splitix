@@ -2,8 +2,11 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Splitix.TestProject/bin/Debug
+/Splitix/bin/
+Splitix/obj/
+/Splitix.TestProject/bin
 /Splitix.TestProject/obj
 /.vs
 /packages/
 !packages/repositories.config
+
